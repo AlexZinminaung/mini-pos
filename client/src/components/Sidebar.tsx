@@ -13,7 +13,7 @@ import { usePageStore } from '../stores/pageStore';
 
 const Sidebar = () => {
     const { isOpen } = useSidebarStore();
-    const { setPage } = usePageStore();
+    const { page, setPage } = usePageStore();
 
     return (
         <div className={`component flex flex-col text-xs text-gray-400 absolute z-20 md:static md:translate-x-0 h-screen transition-all ${isOpen ? "translate-x-0" : " -translate-x-full"}`}>
@@ -31,27 +31,43 @@ const Sidebar = () => {
                 </div>
             </div>
             <div className="flex flex-col gap-2 py-2 mini-component h-full">
-                <button onClick={() => { setPage("Dashboard")}} className='flex items-center gap-2 py-2 px-5 dark:hover:bg-[#182037] hover:bg-[#EEF2FF]'> <LayoutDashboard size={20}/> Dashboard</button>
+                <button 
+                    onClick={() => { setPage("Dashboard")}} 
+                    className={`flex items-center gap-2 py-2 px-5 dark:hover:bg-[#182037] hover:bg-[#EEF2FF] 
+                                ${page == "Dashboard" && "dark:bg-[#182037] bg-[#EEF2FF] border-l-2 border-l-teal-500"}`}> <LayoutDashboard size={20}/> Dashboard</button>
+
                 <div className="flex flex-col gap-2">
                     <span className='text-gray-600 px-5'>SALES</span>
-                    <button onClick={() => { setPage("Point of Sale")}} className='flex items-center gap-2 py-2 px-5 dark:hover:bg-[#182037] hover:bg-[#EEF2FF]'> <ShoppingBag size={20}/> Point of Sale</button>
-                    <button onClick={() => { setPage("Sales History")}} className='flex items-center gap-2 py-2 px-5 dark:hover:bg-[#182037] hover:bg-[#EEF2FF]'><History size={20}/> Sales History</button>
+                    <button onClick={() => { setPage("Point of Sale")}} 
+                            className={`flex items-center gap-2 py-2 px-5 dark:hover:bg-[#182037] hover:bg-[#EEF2FF] 
+                            ${page == "Point of Sale" && "dark:bg-[#182037] bg-[#EEF2FF] border-l-2 border-l-teal-500"}`}> <ShoppingBag size={20}/>Point of Sale</button>
+                    <button onClick={() => { setPage("Sales History")}} 
+                            className={`flex items-center gap-2 py-2 px-5 dark:hover:bg-[#182037] hover:bg-[#EEF2FF] 
+                            ${page == "Sales History" && "dark:bg-[#182037] bg-[#EEF2FF] border-l-2 border-l-teal-500"}`}><History size={20}/>Sales History</button>
                 </div>
 
                 <div className="flex flex-col gap-2">
                     <span className='text-gray-600 px-5'>INVENTORY</span>
-                    <button onClick={() => { setPage("Products")}} className='flex items-center gap-2 py-2 px-5 dark:hover:bg-[#182037] hover:bg-[#EEF2FF]'><Box size={20}/> Products</button>
-                    <button onClick={() => { setPage("Inventory")}} className='flex items-center gap-2 py-2 px-5 dark:hover:bg-[#182037] hover:bg-[#EEF2FF]'><Layers size={20}/> Inventory</button>
+                    <button onClick={() => { setPage("Products")}} 
+                            className={`flex items-center gap-2 py-2 px-5 dark:hover:bg-[#182037] hover:bg-[#EEF2FF] 
+                            ${page == "Products" && "dark:bg-[#182037] bg-[#EEF2FF] border-l-2 border-l-teal-500"}`}><Box size={20}/>Products</button>
+                    <button onClick={() => { setPage("Inventory")}} 
+                            className={`flex items-center gap-2 py-2 px-5 dark:hover:bg-[#182037] hover:bg-[#EEF2FF] 
+                            ${page == "Inventory" && "dark:bg-[#182037] bg-[#EEF2FF] border-l-2 border-l-teal-500"}`}><Layers size={20}/>Inventory</button>
                 </div>
 
                 <div className="flex flex-col gap-2">
                     <span className='text-gray-600 px-5'>ANALYTICS</span>
-                    <button onClick={() => { setPage("Reports")}} className='flex items-center gap-2 py-2 px-5 dark:hover:bg-[#182037] hover:bg-[#EEF2FF]'><ChartNoAxesColumn size={20}/> Reports</button>
+                    <button onClick={() => { setPage("Reports")}} 
+                        className={`flex items-center gap-2 py-2 px-5 dark:hover:bg-[#182037] hover:bg-[#EEF2FF] 
+                        ${page == "Reports" && "dark:bg-[#182037] bg-[#EEF2FF] border-l-2 border-l-teal-500"}`}><ChartNoAxesColumn size={20}/>Reports</button>
                 </div>
 
                 <div className="flex flex-col gap-2">
                     <span className='text-gray-600 px-5'>SYSTEM</span>
-                    <button onClick={() => { setPage("Users")}} className='flex items-center gap-2 py-2 px-5 dark:hover:bg-[#182037] hover:bg-[#EEF2FF]'><Users size={20}/> Users</button>
+                    <button onClick={() => { setPage("Users")}} 
+                    className={`flex items-center gap-2 py-2 px-5 dark:hover:bg-[#182037] hover:bg-[#EEF2FF] 
+                    ${page == "Users" && "dark:bg-[#182037] bg-[#EEF2FF] border-l-2 border-l-teal-500"}`}><Users size={20}/>Users</button>
                 </div>
 
             </div>

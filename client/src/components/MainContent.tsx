@@ -7,7 +7,7 @@ type MainContentProps = {
 const MainContent = ({children} : MainContentProps) => {
 
     return (
-        <div className="w-full">
+        <div className="w-full h-dvh relative overflow-hidden">
             {children}
         </div>
     );
