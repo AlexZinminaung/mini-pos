@@ -1,14 +1,19 @@
-@import "tailwindcss";
-@custom-variant dark (&:where(.dark, .dark *));
-
 /* importing font */
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Syne:wght@400..800&display=swap');
+
+
+@import "tailwindcss";
+
+
+@custom-variant dark (&:where(.dark, .dark *));
 
 @layer base {
   body {
     font-family: "Syne", sans-serif;
   }
 }
+
+
 
 /* Main Layout Wrapper */
 .main-container {
@@ -33,5 +38,5 @@
 }
 
 .dark .mini-component {
-  @apply border-b dark:border-[#202A44];
+  @apply border-b border-[#202A44];
 }

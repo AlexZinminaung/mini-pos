@@ -9,9 +9,12 @@ import { LogOut } from 'lucide-react';
 
 // use store
 import { useSidebarStore } from '../stores/sidebarStore';
+import { usePageStore } from '../stores/pageStore';
 
 const Sidebar = () => {
     const { isOpen } = useSidebarStore();
+    const { setPage } = usePageStore();
+
     return (
         <div className={`component flex flex-col text-xs text-gray-400 absolute z-20 md:static md:translate-x-0 h-screen transition-all ${isOpen ? "translate-x-0" : " -translate-x-full"}`}>
             <div className="flex flex-col gap-2 p-5 mini-component">
@@ -28,27 +31,27 @@ const Sidebar = () => {
                 </div>
             </div>
             <div className="flex flex-col gap-2 py-2 mini-component h-full">
-                <button className='flex items-center gap-2 py-2 px-5 dark:hover:bg-[#182037] hover:bg-[#F4F6FA]'> <LayoutDashboard size={20}/> Dashboard</button>
+                <button onClick={() => { setPage("Dashboard")}} className='flex items-center gap-2 py-2 px-5 dark:hover:bg-[#182037] hover:bg-[#EEF2FF]'> <LayoutDashboard size={20}/> Dashboard</button>
                 <div className="flex flex-col gap-2">
                     <span className='text-gray-600 px-5'>SALES</span>
-                    <button className='flex items-center gap-2 py-2 px-5 dark:hover:bg-[#182037] hover:bg-[#F4F6FA]'> <ShoppingBag size={20}/> Point of Sale</button>
-                    <button className='flex items-center gap-2 py-2 px-5 dark:hover:bg-[#182037] hover:bg-[#F4F6FA]'><History size={20}/> Sales History</button>
+                    <button onClick={() => { setPage("Point of Sale")}} className='flex items-center gap-2 py-2 px-5 dark:hover:bg-[#182037] hover:bg-[#EEF2FF]'> <ShoppingBag size={20}/> Point of Sale</button>
+                    <button onClick={() => { setPage("Sales History")}} className='flex items-center gap-2 py-2 px-5 dark:hover:bg-[#182037] hover:bg-[#EEF2FF]'><History size={20}/> Sales History</button>
                 </div>
 
                 <div className="flex flex-col gap-2">
                     <span className='text-gray-600 px-5'>INVENTORY</span>
-                    <button className='flex items-center gap-2 py-2 px-5 dark:hover:bg-[#182037] hover:bg-[#F4F6FA]'><Box size={20}/> Products</button>
-                    <button className='flex items-center gap-2 py-2 px-5 dark:hover:bg-[#182037] hover:bg-[#F4F6FA]'><Layers size={20}/> Inventory</button>
+                    <button onClick={() => { setPage("Products")}} className='flex items-center gap-2 py-2 px-5 dark:hover:bg-[#182037] hover:bg-[#EEF2FF]'><Box size={20}/> Products</button>
+                    <button onClick={() => { setPage("Inventory")}} className='flex items-center gap-2 py-2 px-5 dark:hover:bg-[#182037] hover:bg-[#EEF2FF]'><Layers size={20}/> Inventory</button>
                 </div>
 
                 <div className="flex flex-col gap-2">
                     <span className='text-gray-600 px-5'>ANALYTICS</span>
-                    <button className='flex items-center gap-2 py-2 px-5 dark:hover:bg-[#182037] hover:bg-[#F4F6FA]'><ChartNoAxesColumn size={20}/> Reports</button>
+                    <button onClick={() => { setPage("Reports")}} className='flex items-center gap-2 py-2 px-5 dark:hover:bg-[#182037] hover:bg-[#EEF2FF]'><ChartNoAxesColumn size={20}/> Reports</button>
                 </div>
 
                 <div className="flex flex-col gap-2">
                     <span className='text-gray-600 px-5'>SYSTEM</span>
-                    <button className='flex items-center gap-2 py-2 px-5 dark:hover:bg-[#182037] hover:bg-[#F4F6FA]'><Users size={20}/> Users</button>
+                    <button onClick={() => { setPage("Users")}} className='flex items-center gap-2 py-2 px-5 dark:hover:bg-[#182037] hover:bg-[#EEF2FF]'><Users size={20}/> Users</button>
                 </div>
 
             </div>
