@@ -138,7 +138,7 @@ const PointOfSale = () => {
                     <span className="text-nowrap">Current Order</span> 
                     <span className="size-5 aspect-square bg-teal-500 flex justify-center items-center rounded-full">0</span>
                 </div>
-                <div className='flex-1 flex flex-col p-2 overflow-scroll justify-center items-center mini-component text-gray-400'>
+                <div className='flex-1 flex flex-col p-2 overflow-auto justify-center items-center mini-component text-gray-400'>
                     <ShoppingBag size={30}/>
                     <span>Cart is Empty</span>
                     <span>Tap products to add</span>
