@@ -4,6 +4,7 @@ import MainContent from './components/MainContent'
 import Navbar from './components/Navbar'
 import Sidebar from './components/Sidebar'
 import Dashboard from './pages/Dashboard'
+import Inventory from './pages/Inventory'
 import PointOfSale from './pages/PointOfSale'
 import Product from './pages/Products'
 import SalesHistory from './pages/SalesHistory'
@@ -28,7 +29,7 @@ const getSelectedPage = (page: Page) =>
     case "Products":
       return <Product/>
     case "Inventory":
-      return <p>Inventory</p>
+      return <Inventory/>
     case "Reports":
       return <p>Reports</p>
     case "Users":
