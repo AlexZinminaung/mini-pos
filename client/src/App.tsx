@@ -44,7 +44,7 @@ function App() {
 
   return (
     <>
-      <section className=' main-container flex'>
+      <section className='main-container flex'>
         <Sidebar/>
         <MainContent>
           <Navbar/>

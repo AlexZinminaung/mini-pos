@@ -17,11 +17,11 @@
 
 /* Main Layout Wrapper */
 .main-container {
-  @apply min-h-screen bg-[#F4F6F9] text-[#111827];
+  @apply bg-[#F4F6F9] text-[#111827];
 }
 
 .dark .main-container {
-  @apply min-h-screen bg-[#0A0F1D] text-[#FFFFFF];
+  @apply bg-[#0A0F1D] text-[#FFFFFF];
 }
 
 /* Dashboard Cards / Containers */
@@ -40,3 +40,4 @@
 .dark .mini-component {
   @apply border-b border-[#202A44];
 }
+

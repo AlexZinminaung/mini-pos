@@ -7,7 +7,7 @@ type MainContentProps = {
 const MainContent = ({children} : MainContentProps) => {
 
     return (
-        <div className="w-full h-dvh relative overflow-hidden">
+        <div className="fixed inset-0 sm:relative w-full h-full sm:h-dvh overflow-hidden main-container">
             {children}
         </div>
     );
