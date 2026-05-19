@@ -48,7 +48,7 @@ const SalesHistory = () => {
                             <button className=" mini-component border rounded-md px-2">Print Report</button>
                         </div>
 
-                        <div className="flex w-full gap-2 text-gray-400 p-2 text-nowrap">
+                        <div className="grid grid-cols-9 w-full gap-2 text-gray-400 p-2 text-nowrap">
                             <div className="flex-1">RECEIPT #</div>
                             <div className="flex-1">DATE/TIME</div>
                             <div className="flex-1">ITEMS</div>
@@ -60,7 +60,7 @@ const SalesHistory = () => {
                             <div className="flex-1">ACTIONS</div>
                         </div>
 
-                        <div className="flex w-full gap-2 p-2 text-nowrap">
+                        <div className="grid grid-cols-9 w-full gap-2 p-2 text-nowrap">
                             <div className="flex-1">24300264</div>
                             <div className="flex-1">19 Apr 20:56</div>
                             <div className="flex-1">1 items</div>
@@ -72,7 +72,7 @@ const SalesHistory = () => {
                             <div className="flex-1">View</div>
                         </div>
 
-                        <div className="flex w-full gap-2 p-2 text-nowrap">
+                        <div className="grid grid-cols-9 w-full gap-2 p-2 text-nowrap">
                             <div className="flex-1">24300264</div>
                             <div className="flex-1">19 Apr 20:56</div>
                             <div className="flex-1">1 items</div>
@@ -84,7 +84,7 @@ const SalesHistory = () => {
                             <div className="flex-1">View</div>
                         </div>
 
-                        <div className="flex w-full gap-2 p-2 text-nowrap">
+                        <div className="grid grid-cols-9 w-full gap-2 p-2 text-nowrap">
                             <div className="flex-1">24300264</div>
                             <div className="flex-1">19 Apr 20:56</div>
                             <div className="flex-1">1 items</div>
@@ -96,7 +96,7 @@ const SalesHistory = () => {
                             <div className="flex-1">View</div>
                         </div>
 
-                        <div className="flex w-full gap-2 p-2 text-nowrap">
+                        <div className="grid grid-cols-9 w-full gap-2 p-2 text-nowrap">
                             <div className="flex-1">24300264</div>
                             <div className="flex-1">19 Apr 20:56</div>
                             <div className="flex-1">1 items</div>

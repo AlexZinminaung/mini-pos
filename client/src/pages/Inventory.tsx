@@ -19,7 +19,7 @@ const Inventory = () => {
                             <input type="text" placeholder="Search products.." className="p-2"/>
                         </div>
 
-                        <div className="flex w-full gap-2 p-2 text-gray-400 text-nowrap mini-component">
+                        <div className="grid grid-cols-6 w-full gap-2 p-2 text-gray-400 text-nowrap mini-component">
                             <div className="flex-1">PRODUCT</div>
                             <div className="flex-1">CATEGORY</div>
                             <div className="flex-1">STOCK</div>
@@ -28,7 +28,7 @@ const Inventory = () => {
                             <div className="flex-1">RESTOCK</div>
                         </div>
 
-                        <div className="flex w-full gap-2 p-2 text-nowrap">
+                        <div className="grid grid-cols-6 w-full gap-2 p-2 text-nowrap">
                             <div className="flex-1">Coca-Cola 330ml</div>
                             <div className="flex-1"><span className="bg-blue-400 text-black p-1 rounded-full">Beverages</span></div>
                             <div className="flex-1">50</div>
@@ -37,7 +37,7 @@ const Inventory = () => {
                             <div className="flex-1"><button className="bg-teal-400 text-black rounded-md p-1 text-sm">+ Restock</button></div>
                         </div>
 
-                        <div className="flex w-full gap-2 p-2 text-nowrap">
+                        <div className="grid grid-cols-6 w-full gap-2 p-2 text-nowrap">
                             <div className="flex-1">Coca-Cola 330ml</div>
                             <div className="flex-1"><span className="bg-blue-400 text-black p-1 rounded-full">Beverages</span></div>
                             <div className="flex-1">50</div>
@@ -46,7 +46,7 @@ const Inventory = () => {
                             <div className="flex-1"><button className="bg-teal-400 text-black rounded-md p-1 text-sm">+ Restock</button></div>
                         </div>
 
-                        <div className="flex w-full gap-2 p-2 text-nowrap">
+                        <div className="grid grid-cols-6 w-full gap-2 p-2 text-nowrap">
                             <div className="flex-1">Coca-Cola 330ml</div>
                             <div className="flex-1"><span className="bg-blue-400 text-black p-1 rounded-full">Beverages</span></div>
                             <div className="flex-1">50</div>
@@ -55,7 +55,7 @@ const Inventory = () => {
                             <div className="flex-1"><button className="bg-teal-400 text-black rounded-md p-1 text-sm">+ Restock</button></div>
                         </div>
 
-                        <div className="flex w-full gap-2 p-2 text-nowrap">
+                        <div className="grid grid-cols-6 w-full gap-2 p-2 text-nowrap">
                             <div className="flex-1">Coca-Cola 330ml</div>
                             <div className="flex-1"><span className="bg-blue-400 text-black p-1 rounded-full">Beverages</span></div>
                             <div className="flex-1">50</div>
@@ -64,7 +64,7 @@ const Inventory = () => {
                             <div className="flex-1"><button className="bg-teal-400 text-black rounded-md p-1 text-sm">+ Restock</button></div>
                         </div>
 
-                        <div className="flex w-full gap-2 p-2 text-nowrap">
+                        <div className="grid grid-cols-6 w-full gap-2 p-2 text-nowrap">
                             <div className="flex-1">Coca-Cola 330ml</div>
                             <div className="flex-1"><span className="bg-blue-400 text-black p-1 rounded-full">Beverages</span></div>
                             <div className="flex-1">50</div>
@@ -73,7 +73,7 @@ const Inventory = () => {
                             <div className="flex-1"><button className="bg-teal-400 text-black rounded-md p-1 text-sm">+ Restock</button></div>
                         </div>
 
-                        <div className="flex w-full gap-2 p-2 text-nowrap">
+                        <div className="grid grid-cols-6 w-full gap-2 p-2 text-nowrap">
                             <div className="flex-1">Coca-Cola 330ml</div>
                             <div className="flex-1"><span className="bg-blue-400 text-black p-1 rounded-full">Beverages</span></div>
                             <div className="flex-1">50</div>

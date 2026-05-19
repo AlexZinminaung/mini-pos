@@ -31,7 +31,7 @@ const Product = () => {
                             </select>
                         </div>
 
-                        <div className="flex w-full gap-2 p-2 text-gray-400 text-nowrap mini-component ">
+                        <div className="grid grid-cols-7 w-full gap-2 p-2 text-gray-400 text-nowrap mini-component ">
                             <div className="flex-1">PRODUCT</div>
                             <div className="flex-1">CATEGORY</div>
                             <div className="flex-1">PRICE</div>
@@ -41,7 +41,129 @@ const Product = () => {
                             <div className="flex-1">ACTIONS</div>
                         </div>
 
+                        <div className="grid grid-cols-7 w-full gap-2 p-2 text-nowrap">
+                            <div className="flex-1">Coca-Cola 330ml</div>
+                            <div className="flex-1"><span className="bg-blue-400 text-black p-1 rounded-full">Beverages</span></div>
+                            <div className="flex-1">$ 25.00</div>
+                            <div className="flex-1">$ 15.00</div>
+                            <div className="flex-1"><span className="bg-teal-400 text-black p-1 rounded-full">50</span></div>
+                            <div className="flex-1"><span className="bg-teal-400 text-black p-1 rounded-full">In Stock</span></div>
+                            <div className="flex-1"><button className=" mini-component border px-4 rounded-md text-gray-400 hover:text-black dark:hover:text-white">edit</button></div>
+                        </div>
+
+                        <div className="grid grid-cols-7 w-full gap-2 p-2 text-nowrap">
+                            <div className="flex-1">Coca-Cola 330ml</div>
+                            <div className="flex-1"><span className="bg-blue-400 text-black p-1 rounded-full">Beverages</span></div>
+                            <div className="flex-1">$ 25.00</div>
+                            <div className="flex-1">$ 15.00</div>
+                            <div className="flex-1"><span className="bg-teal-400 text-black p-1 rounded-full">50</span></div>
+                            <div className="flex-1"><span className="bg-teal-400 text-black p-1 rounded-full">In Stock</span></div>
+                            <div className="flex-1"><button className=" mini-component border px-4 rounded-md text-gray-400 hover:text-black dark:hover:text-white">edit</button></div>
+                        </div>
+
+                        <div className="grid grid-cols-7 w-full gap-2 p-2 text-nowrap">
+                            <div className="flex-1">Coca-Cola 330ml</div>
+                            <div className="flex-1"><span className="bg-blue-400 text-black p-1 rounded-full">Beverages</span></div>
+                            <div className="flex-1">$ 25.00</div>
+                            <div className="flex-1">$ 15.00</div>
+                            <div className="flex-1"><span className="bg-teal-400 text-black p-1 rounded-full">50</span></div>
+                            <div className="flex-1"><span className="bg-teal-400 text-black p-1 rounded-full">In Stock</span></div>
+                            <div className="flex-1"><button className=" mini-component border px-4 rounded-md text-gray-400 hover:text-black dark:hover:text-white">edit</button></div>
+                        </div>
+
+                        <div className="grid grid-cols-7 w-full gap-2 p-2 text-nowrap">
+                            <div className="flex-1">Coca-Cola 330ml</div>
+                            <div className="flex-1"><span className="bg-blue-400 text-black p-1 rounded-full">Beverages</span></div>
+                            <div className="flex-1">$ 25.00</div>
+                            <div className="flex-1">$ 15.00</div>
+                            <div className="flex-1"><span className="bg-teal-400 text-black p-1 rounded-full">50</span></div>
+                            <div className="flex-1"><span className="bg-teal-400 text-black p-1 rounded-full">In Stock</span></div>
+                            <div className="flex-1"><button className=" mini-component border px-4 rounded-md text-gray-400 hover:text-black dark:hover:text-white">edit</button></div>
+                        </div>
+
+                        <div className="grid grid-cols-7 w-full gap-2 p-2 text-nowrap">
+                            <div className="flex-1">Coca-Cola 330ml</div>
+                            <div className="flex-1"><span className="bg-blue-400 text-black p-1 rounded-full">Beverages</span></div>
+                            <div className="flex-1">$ 25.00</div>
+                            <div className="flex-1">$ 15.00</div>
+                            <div className="flex-1"><span className="bg-teal-400 text-black p-1 rounded-full">50</span></div>
+                            <div className="flex-1"><span className="bg-teal-400 text-black p-1 rounded-full">In Stock</span></div>
+                            <div className="flex-1"><button className=" mini-component border px-4 rounded-md text-gray-400 hover:text-black dark:hover:text-white">edit</button></div>
+                        </div>
+
+                        <div className="grid grid-cols-7 w-full gap-2 p-2 text-nowrap">
+                            <div className="flex-1">Coca-Cola 330ml</div>
+                            <div className="flex-1"><span className="bg-blue-400 text-black p-1 rounded-full">Beverages</span></div>
+                            <div className="flex-1">$ 25.00</div>
+                            <div className="flex-1">$ 15.00</div>
+                            <div className="flex-1"><span className="bg-teal-400 text-black p-1 rounded-full">50</span></div>
+                            <div className="flex-1"><span className="bg-teal-400 text-black p-1 rounded-full">In Stock</span></div>
+                            <div className="flex-1"><button className=" mini-component border px-4 rounded-md text-gray-400 hover:text-black dark:hover:text-white">edit</button></div>
+                        </div>
+
+
+                        <div className="grid grid-cols-7 w-full gap-2 p-2 text-nowrap">
+                            <div className="flex-1">Coca-Cola 330ml</div>
+                            <div className="flex-1"><span className="bg-blue-400 text-black p-1 rounded-full">Beverages</span></div>
+                            <div className="flex-1">$ 25.00</div>
+                            <div className="flex-1">$ 15.00</div>
+                            <div className="flex-1"><span className="bg-teal-400 text-black p-1 rounded-full">50</span></div>
+                            <div className="flex-1"><span className="bg-teal-400 text-black p-1 rounded-full">In Stock</span></div>
+                            <div className="flex-1"><button className=" mini-component border px-4 rounded-md text-gray-400 hover:text-black dark:hover:text-white">edit</button></div>
+                        </div>
+
+                        <div className="grid grid-cols-7 w-full gap-2 p-2 text-nowrap">
+                            <div className="flex-1">Coca-Cola 330ml</div>
+                            <div className="flex-1"><span className="bg-blue-400 text-black p-1 rounded-full">Beverages</span></div>
+                            <div className="flex-1">$ 25.00</div>
+                            <div className="flex-1">$ 15.00</div>
+                            <div className="flex-1"><span className="bg-teal-400 text-black p-1 rounded-full">50</span></div>
+                            <div className="flex-1"><span className="bg-teal-400 text-black p-1 rounded-full">In Stock</span></div>
+                            <div className="flex-1"><button className=" mini-component border px-4 rounded-md text-gray-400 hover:text-black dark:hover:text-white">edit</button></div>
+                        </div>
+
                         <div className="flex w-full gap-2 p-2 text-nowrap">
+                            <div className="flex-1">Coca-Cola 330ml</div>
+                            <div className="flex-1"><span className="bg-blue-400 text-black p-1 rounded-full">Beverages</span></div>
+                            <div className="flex-1">$ 25.00</div>
+                            <div className="flex-1">$ 15.00</div>
+                            <div className="flex-1"><span className="bg-teal-400 text-black p-1 rounded-full">50</span></div>
+                            <div className="flex-1"><span className="bg-teal-400 text-black p-1 rounded-full">In Stock</span></div>
+                            <div className="flex-1"><button className=" mini-component border px-4 rounded-md text-gray-400 hover:text-black dark:hover:text-white">edit</button></div>
+                        </div>
+
+                        <div className="flex w-full gap-2 p-2 text-nowrap">
+                            <div className="flex-1">Coca-Cola 330ml</div>
+                            <div className="flex-1"><span className="bg-blue-400 text-black p-1 rounded-full">Beverages</span></div>
+                            <div className="flex-1">$ 25.00</div>
+                            <div className="flex-1">$ 15.00</div>
+                            <div className="flex-1"><span className="bg-teal-400 text-black p-1 rounded-full">50</span></div>
+                            <div className="flex-1"><span className="bg-teal-400 text-black p-1 rounded-full">In Stock</span></div>
+                            <div className="flex-1"><button className=" mini-component border px-4 rounded-md text-gray-400 hover:text-black dark:hover:text-white">edit</button></div>
+                        </div>
+
+                        <div className="grid grid-cols-7 w-full gap-2 p-2 text-nowrap">
+                            <div className="flex-1">Coca-Cola 330ml</div>
+                            <div className="flex-1"><span className="bg-blue-400 text-black p-1 rounded-full">Beverages</span></div>
+                            <div className="flex-1">$ 25.00</div>
+                            <div className="flex-1">$ 15.00</div>
+                            <div className="flex-1"><span className="bg-teal-400 text-black p-1 rounded-full">50</span></div>
+                            <div className="flex-1"><span className="bg-teal-400 text-black p-1 rounded-full">In Stock</span></div>
+                            <div className="flex-1"><button className=" mini-component border px-4 rounded-md text-gray-400 hover:text-black dark:hover:text-white">edit</button></div>
+                        </div>
+
+                        <div className="grid grid-cols-7 w-full gap-2 p-2 text-nowrap">
+                            <div className="flex-1">Coca-Cola 330ml</div>
+                            <div className="flex-1"><span className="bg-blue-400 text-black p-1 rounded-full">Beverages</span></div>
+                            <div className="flex-1">$ 25.00</div>
+                            <div className="flex-1">$ 15.00</div>
+                            <div className="flex-1"><span className="bg-teal-400 text-black p-1 rounded-full">50</span></div>
+                            <div className="flex-1"><span className="bg-teal-400 text-black p-1 rounded-full">In Stock</span></div>
+                            <div className="flex-1"><button className=" mini-component border px-4 rounded-md text-gray-400 hover:text-black dark:hover:text-white">edit</button></div>
+                        </div>
+
+
+                        <div className="grid grid-cols-7 w-full gap-2 p-2 text-nowrap">
                             <div className="flex-1">Coca-Cola 330ml</div>
                             <div className="flex-1"><span className="bg-blue-400 text-black p-1 rounded-full">Beverages</span></div>
                             <div className="flex-1">$ 25.00</div>
@@ -91,7 +213,7 @@ const Product = () => {
                             <div className="flex-1"><button className=" mini-component border px-4 rounded-md text-gray-400 hover:text-black dark:hover:text-white">edit</button></div>
                         </div>
 
-                        <div className="flex w-full gap-2 p-2 text-nowrap">
+                        <div className="grid grid-cols-7 w-full gap-2 p-2 text-nowrap">
                             <div className="flex-1">Coca-Cola 330ml</div>
                             <div className="flex-1"><span className="bg-blue-400 text-black p-1 rounded-full">Beverages</span></div>
                             <div className="flex-1">$ 25.00</div>
@@ -112,7 +234,7 @@ const Product = () => {
                             <div className="flex-1"><button className=" mini-component border px-4 rounded-md text-gray-400 hover:text-black dark:hover:text-white">edit</button></div>
                         </div>
 
-                        <div className="flex w-full gap-2 p-2 text-nowrap">
+                        <div className="grid grid-cols-7 w-full gap-2 p-2 text-nowrap">
                             <div className="flex-1">Coca-Cola 330ml</div>
                             <div className="flex-1"><span className="bg-blue-400 text-black p-1 rounded-full">Beverages</span></div>
                             <div className="flex-1">$ 25.00</div>
@@ -122,7 +244,7 @@ const Product = () => {
                             <div className="flex-1"><button className=" mini-component border px-4 rounded-md text-gray-400 hover:text-black dark:hover:text-white">edit</button></div>
                         </div>
 
-                        <div className="flex w-full gap-2 p-2 text-nowrap">
+                        <div className="grid grid-cols-7 w-full gap-2 p-2 text-nowrap">
                             <div className="flex-1">Coca-Cola 330ml</div>
                             <div className="flex-1"><span className="bg-blue-400 text-black p-1 rounded-full">Beverages</span></div>
                             <div className="flex-1">$ 25.00</div>
@@ -132,7 +254,7 @@ const Product = () => {
                             <div className="flex-1"><button className=" mini-component border px-4 rounded-md text-gray-400 hover:text-black dark:hover:text-white">edit</button></div>
                         </div>
 
-                        <div className="flex w-full gap-2 p-2 text-nowrap">
+                        <div className="grid grid-cols-7 w-full gap-2 p-2 text-nowrap">
                             <div className="flex-1">Coca-Cola 330ml</div>
                             <div className="flex-1"><span className="bg-blue-400 text-black p-1 rounded-full">Beverages</span></div>
                             <div className="flex-1">$ 25.00</div>
@@ -142,7 +264,7 @@ const Product = () => {
                             <div className="flex-1"><button className=" mini-component border px-4 rounded-md text-gray-400 hover:text-black dark:hover:text-white">edit</button></div>
                         </div>
 
-                        <div className="flex w-full gap-2 p-2 text-nowrap">
+                        <div className="grid grid-cols-7 w-full gap-2 p-2 text-nowrap">
                             <div className="flex-1">Coca-Cola 330ml</div>
                             <div className="flex-1"><span className="bg-blue-400 text-black p-1 rounded-full">Beverages</span></div>
                             <div className="flex-1">$ 25.00</div>
@@ -152,129 +274,7 @@ const Product = () => {
                             <div className="flex-1"><button className=" mini-component border px-4 rounded-md text-gray-400 hover:text-black dark:hover:text-white">edit</button></div>
                         </div>
 
-                        <div className="flex w-full gap-2 p-2 text-nowrap">
-                            <div className="flex-1">Coca-Cola 330ml</div>
-                            <div className="flex-1"><span className="bg-blue-400 text-black p-1 rounded-full">Beverages</span></div>
-                            <div className="flex-1">$ 25.00</div>
-                            <div className="flex-1">$ 15.00</div>
-                            <div className="flex-1"><span className="bg-teal-400 text-black p-1 rounded-full">50</span></div>
-                            <div className="flex-1"><span className="bg-teal-400 text-black p-1 rounded-full">In Stock</span></div>
-                            <div className="flex-1"><button className=" mini-component border px-4 rounded-md text-gray-400 hover:text-black dark:hover:text-white">edit</button></div>
-                        </div>
-
-
-                        <div className="flex w-full gap-2 p-2 text-nowrap">
-                            <div className="flex-1">Coca-Cola 330ml</div>
-                            <div className="flex-1"><span className="bg-blue-400 text-black p-1 rounded-full">Beverages</span></div>
-                            <div className="flex-1">$ 25.00</div>
-                            <div className="flex-1">$ 15.00</div>
-                            <div className="flex-1"><span className="bg-teal-400 text-black p-1 rounded-full">50</span></div>
-                            <div className="flex-1"><span className="bg-teal-400 text-black p-1 rounded-full">In Stock</span></div>
-                            <div className="flex-1"><button className=" mini-component border px-4 rounded-md text-gray-400 hover:text-black dark:hover:text-white">edit</button></div>
-                        </div>
-
-                        <div className="flex w-full gap-2 p-2 text-nowrap">
-                            <div className="flex-1">Coca-Cola 330ml</div>
-                            <div className="flex-1"><span className="bg-blue-400 text-black p-1 rounded-full">Beverages</span></div>
-                            <div className="flex-1">$ 25.00</div>
-                            <div className="flex-1">$ 15.00</div>
-                            <div className="flex-1"><span className="bg-teal-400 text-black p-1 rounded-full">50</span></div>
-                            <div className="flex-1"><span className="bg-teal-400 text-black p-1 rounded-full">In Stock</span></div>
-                            <div className="flex-1"><button className=" mini-component border px-4 rounded-md text-gray-400 hover:text-black dark:hover:text-white">edit</button></div>
-                        </div>
-
-                        <div className="flex w-full gap-2 p-2 text-nowrap">
-                            <div className="flex-1">Coca-Cola 330ml</div>
-                            <div className="flex-1"><span className="bg-blue-400 text-black p-1 rounded-full">Beverages</span></div>
-                            <div className="flex-1">$ 25.00</div>
-                            <div className="flex-1">$ 15.00</div>
-                            <div className="flex-1"><span className="bg-teal-400 text-black p-1 rounded-full">50</span></div>
-                            <div className="flex-1"><span className="bg-teal-400 text-black p-1 rounded-full">In Stock</span></div>
-                            <div className="flex-1"><button className=" mini-component border px-4 rounded-md text-gray-400 hover:text-black dark:hover:text-white">edit</button></div>
-                        </div>
-
-                        <div className="flex w-full gap-2 p-2 text-nowrap">
-                            <div className="flex-1">Coca-Cola 330ml</div>
-                            <div className="flex-1"><span className="bg-blue-400 text-black p-1 rounded-full">Beverages</span></div>
-                            <div className="flex-1">$ 25.00</div>
-                            <div className="flex-1">$ 15.00</div>
-                            <div className="flex-1"><span className="bg-teal-400 text-black p-1 rounded-full">50</span></div>
-                            <div className="flex-1"><span className="bg-teal-400 text-black p-1 rounded-full">In Stock</span></div>
-                            <div className="flex-1"><button className=" mini-component border px-4 rounded-md text-gray-400 hover:text-black dark:hover:text-white">edit</button></div>
-                        </div>
-
-                        <div className="flex w-full gap-2 p-2 text-nowrap">
-                            <div className="flex-1">Coca-Cola 330ml</div>
-                            <div className="flex-1"><span className="bg-blue-400 text-black p-1 rounded-full">Beverages</span></div>
-                            <div className="flex-1">$ 25.00</div>
-                            <div className="flex-1">$ 15.00</div>
-                            <div className="flex-1"><span className="bg-teal-400 text-black p-1 rounded-full">50</span></div>
-                            <div className="flex-1"><span className="bg-teal-400 text-black p-1 rounded-full">In Stock</span></div>
-                            <div className="flex-1"><button className=" mini-component border px-4 rounded-md text-gray-400 hover:text-black dark:hover:text-white">edit</button></div>
-                        </div>
-
-                        <div className="flex w-full gap-2 p-2 text-nowrap">
-                            <div className="flex-1">Coca-Cola 330ml</div>
-                            <div className="flex-1"><span className="bg-blue-400 text-black p-1 rounded-full">Beverages</span></div>
-                            <div className="flex-1">$ 25.00</div>
-                            <div className="flex-1">$ 15.00</div>
-                            <div className="flex-1"><span className="bg-teal-400 text-black p-1 rounded-full">50</span></div>
-                            <div className="flex-1"><span className="bg-teal-400 text-black p-1 rounded-full">In Stock</span></div>
-                            <div className="flex-1"><button className=" mini-component border px-4 rounded-md text-gray-400 hover:text-black dark:hover:text-white">edit</button></div>
-                        </div>
-
-
-                        <div className="flex w-full gap-2 p-2 text-nowrap">
-                            <div className="flex-1">Coca-Cola 330ml</div>
-                            <div className="flex-1"><span className="bg-blue-400 text-black p-1 rounded-full">Beverages</span></div>
-                            <div className="flex-1">$ 25.00</div>
-                            <div className="flex-1">$ 15.00</div>
-                            <div className="flex-1"><span className="bg-teal-400 text-black p-1 rounded-full">50</span></div>
-                            <div className="flex-1"><span className="bg-teal-400 text-black p-1 rounded-full">In Stock</span></div>
-                            <div className="flex-1"><button className=" mini-component border px-4 rounded-md text-gray-400 hover:text-black dark:hover:text-white">edit</button></div>
-                        </div>
-
-                        <div className="flex w-full gap-2 p-2 text-nowrap">
-                            <div className="flex-1">Coca-Cola 330ml</div>
-                            <div className="flex-1"><span className="bg-blue-400 text-black p-1 rounded-full">Beverages</span></div>
-                            <div className="flex-1">$ 25.00</div>
-                            <div className="flex-1">$ 15.00</div>
-                            <div className="flex-1"><span className="bg-teal-400 text-black p-1 rounded-full">50</span></div>
-                            <div className="flex-1"><span className="bg-teal-400 text-black p-1 rounded-full">In Stock</span></div>
-                            <div className="flex-1"><button className=" mini-component border px-4 rounded-md text-gray-400 hover:text-black dark:hover:text-white">edit</button></div>
-                        </div>
-
-                        <div className="flex w-full gap-2 p-2 text-nowrap">
-                            <div className="flex-1">Coca-Cola 330ml</div>
-                            <div className="flex-1"><span className="bg-blue-400 text-black p-1 rounded-full">Beverages</span></div>
-                            <div className="flex-1">$ 25.00</div>
-                            <div className="flex-1">$ 15.00</div>
-                            <div className="flex-1"><span className="bg-teal-400 text-black p-1 rounded-full">50</span></div>
-                            <div className="flex-1"><span className="bg-teal-400 text-black p-1 rounded-full">In Stock</span></div>
-                            <div className="flex-1"><button className=" mini-component border px-4 rounded-md text-gray-400 hover:text-black dark:hover:text-white">edit</button></div>
-                        </div>
-
-                        <div className="flex w-full gap-2 p-2 text-nowrap">
-                            <div className="flex-1">Coca-Cola 330ml</div>
-                            <div className="flex-1"><span className="bg-blue-400 text-black p-1 rounded-full">Beverages</span></div>
-                            <div className="flex-1">$ 25.00</div>
-                            <div className="flex-1">$ 15.00</div>
-                            <div className="flex-1"><span className="bg-teal-400 text-black p-1 rounded-full">50</span></div>
-                            <div className="flex-1"><span className="bg-teal-400 text-black p-1 rounded-full">In Stock</span></div>
-                            <div className="flex-1"><button className=" mini-component border px-4 rounded-md text-gray-400 hover:text-black dark:hover:text-white">edit</button></div>
-                        </div>
-
-                        <div className="flex w-full gap-2 p-2 text-nowrap">
-                            <div className="flex-1">Coca-Cola 330ml</div>
-                            <div className="flex-1"><span className="bg-blue-400 text-black p-1 rounded-full">Beverages</span></div>
-                            <div className="flex-1">$ 25.00</div>
-                            <div className="flex-1">$ 15.00</div>
-                            <div className="flex-1"><span className="bg-teal-400 text-black p-1 rounded-full">50</span></div>
-                            <div className="flex-1"><span className="bg-teal-400 text-black p-1 rounded-full">In Stock</span></div>
-                            <div className="flex-1"><button className=" mini-component border px-4 rounded-md text-gray-400 hover:text-black dark:hover:text-white">edit</button></div>
-                        </div>
-
-                        <div className="flex w-full gap-2 p-2 text-nowrap">
+                        <div className="grid grid-cols-7 w-full gap-2 p-2 text-nowrap">
                             <div className="flex-1">Coca-Cola 330ml</div>
                             <div className="flex-1"><span className="bg-blue-400 text-black p-1 rounded-full">Beverages</span></div>
                             <div className="flex-1">$ 25.00</div>
