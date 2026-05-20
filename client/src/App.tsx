@@ -7,7 +7,9 @@ import Dashboard from './pages/Dashboard'
 import Inventory from './pages/Inventory'
 import PointOfSale from './pages/PointOfSale'
 import Product from './pages/Products'
+import Report from './pages/Report'
 import SalesHistory from './pages/SalesHistory'
+import User from './pages/User'
 
 // use Store 
 import { usePageStore } from './stores/pageStore'
@@ -31,9 +33,9 @@ const getSelectedPage = (page: Page) =>
     case "Inventory":
       return <Inventory/>
     case "Reports":
-      return <p>Reports</p>
+      return <Report/>
     case "Users":
-      return <p>User</p>
+      return <User/>
     default:
       return <p>No Page found</p>
   }
