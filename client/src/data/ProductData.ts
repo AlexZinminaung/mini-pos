@@ -1,0 +1,241 @@
+import type { ProductType } from "../types/ProductType";
+
+const Products: ProductType[] = [
+  {
+    id: 1,
+    name: "Coca Cola 250ml",
+    category: "Beverages",
+    price: 30,
+    cost: 25,
+    stock: 30,
+    image:
+      "https://png.pngtree.com/png-vector/20231115/ourmid/pngtree-cocacola-can-resting-on-a-blank-png-image_10586760.png",
+  },
+  {
+    id: 2,
+    name: "Pepsi 330ml",
+    category: "Beverages",
+    price: 30,
+    cost: 24,
+    stock: 25,
+    image:
+      "https://images.unsplash.com/photo-1629203851122-3726ecdf080e",
+  },
+  {
+    id: 3,
+    name: "Mineral Water",
+    category: "Beverages",
+    price: 15,
+    cost: 10,
+    stock: 50,
+    image:
+      "https://images.unsplash.com/photo-1564419320461-6870880221ad",
+  },
+  {
+    id: 4,
+    name: "Orange Juice",
+    category: "Beverages",
+    price: 40,
+    cost: 30,
+    stock: 22,
+    image:
+      "https://images.unsplash.com/photo-1600271886742-f049cd5bba3f",
+  },
+  {
+    id: 5,
+    name: "Coffee Can",
+    category: "Beverages",
+    price: 35,
+    cost: 28,
+    stock: 20,
+    image:
+      "https://images.unsplash.com/photo-1517701604599-bb29b565090c",
+  },
+
+  {
+    id: 6,
+    name: "Potato Chips",
+    category: "Snacks",
+    price: 25,
+    cost: 18,
+    stock: 40,
+    image:
+      "https://images.unsplash.com/photo-1566478989037-eec170784d0b",
+  },
+  {
+    id: 7,
+    name: "Chocolate Bar",
+    category: "Snacks",
+    price: 20,
+    cost: 12,
+    stock: 35,
+    image:
+      "https://images.unsplash.com/photo-1549007994-cb92caebd54b",
+  },
+  {
+    id: 8,
+    name: "Salted Peanuts",
+    category: "Snacks",
+    price: 18,
+    cost: 10,
+    stock: 45,
+    image:
+      "https://images.unsplash.com/photo-1509440159596-0249088772ff",
+  },
+  {
+    id: 9,
+    name: "Cookies Pack",
+    category: "Snacks",
+    price: 28,
+    cost: 18,
+    stock: 26,
+    image:
+      "https://images.unsplash.com/photo-1499636136210-6f4ee915583e",
+  },
+
+  {
+    id: 10,
+    name: "Instant Noodles",
+    category: "Food",
+    price: 18,
+    cost: 12,
+    stock: 60,
+    image:
+      "https://images.unsplash.com/photo-1612929633738-8fe44f7ec841",
+  },
+  {
+    id: 11,
+    name: "Bread Loaf",
+    category: "Food",
+    price: 40,
+    cost: 30,
+    stock: 18,
+    image:
+      "https://images.unsplash.com/photo-1509440159596-0249088772ff",
+  },
+  {
+    id: 12,
+    name: "Frozen Pizza",
+    category: "Food",
+    price: 120,
+    cost: 90,
+    stock: 10,
+    image:
+      "https://images.unsplash.com/photo-1513104890138-7c749659a591",
+  },
+  {
+    id: 13,
+    name: "Hot Dog",
+    category: "Food",
+    price: 50,
+    cost: 35,
+    stock: 16,
+    image:
+      "https://images.unsplash.com/photo-1612392062798-f4cb5c06a1b1",
+  },
+
+  {
+    id: 14,
+    name: "Milk 1L",
+    category: "Dairy",
+    price: 55,
+    cost: 45,
+    stock: 15,
+    image:
+      "https://images.unsplash.com/photo-1550583724-b2692b85b150",
+  },
+  {
+    id: 15,
+    name: "Ice Cream Cup",
+    category: "Dairy",
+    price: 45,
+    cost: 35,
+    stock: 12,
+    image:
+      "https://images.unsplash.com/photo-1563805042-7684c019e1cb",
+  },
+  {
+    id: 16,
+    name: "Cheese Slice",
+    category: "Dairy",
+    price: 65,
+    cost: 50,
+    stock: 14,
+    image:
+      "https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d",
+  },
+  {
+    id: 17,
+    name: "Butter Pack",
+    category: "Dairy",
+    price: 70,
+    cost: 58,
+    stock: 11,
+    image:
+      "https://images.unsplash.com/photo-1589985270958-b3f1c1b1a5b5",
+  },
+
+  {
+    id: 18,
+    name: "Shampoo",
+    category: "Personal Care",
+    price: 95,
+    cost: 70,
+    stock: 20,
+    image:
+      "https://images.unsplash.com/photo-1526947425960-945c6e72858f",
+  },
+  {
+    id: 19,
+    name: "Toothpaste",
+    category: "Personal Care",
+    price: 45,
+    cost: 30,
+    stock: 34,
+    image:
+      "https://images.unsplash.com/photo-1559591937-abc6c2c2b9d4",
+  },
+  {
+    id: 20,
+    name: "Soap Bar",
+    category: "Personal Care",
+    price: 25,
+    cost: 15,
+    stock: 42,
+    image:
+      "https://images.unsplash.com/photo-1607006483225-2f24f8c1a6d5",
+  },
+
+  {
+    id: 21,
+    name: "Dishwashing Liquid",
+    category: "Cleaning",
+    price: 85,
+    cost: 60,
+    stock: 17,
+    image:
+      "https://images.unsplash.com/photo-1583947582886-f40ec95dd752",
+  },
+  {
+    id: 22,
+    name: "Laundry Detergent",
+    category: "Cleaning",
+    price: 150,
+    cost: 120,
+    stock: 9,
+    image:
+      "https://images.unsplash.com/photo-1610552050890-fe99536c2614",
+  },
+  {
+    id: 23,
+    name: "Floor Cleaner",
+    category: "Cleaning",
+    price: 110,
+    cost: 85,
+    stock: 13,
+    image:
+      "https://images.unsplash.com/photo-1581578731548-c64695cc6952",
+  },
+];
+
+export default Products;
