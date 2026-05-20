@@ -49,63 +49,63 @@ const SalesHistory = () => {
                         </div>
 
                         <div className="grid grid-cols-9 w-full gap-2 text-gray-400 p-2 text-nowrap">
-                            <div className="flex-1">RECEIPT #</div>
-                            <div className="flex-1">DATE/TIME</div>
-                            <div className="flex-1">ITEMS</div>
-                            <div className="flex-1">SUBTOTAL</div>
-                            <div className="flex-1">TAX</div>
-                            <div className="flex-1">DISCOUNT</div>
-                            <div className="flex-1">TOTAL</div>
-                            <div className="flex-1">STAFF</div>
-                            <div className="flex-1">ACTIONS</div>
+                            <div>RECEIPT #</div>
+                            <div>DATE/TIME</div>
+                            <div>ITEMS</div>
+                            <div>SUBTOTAL</div>
+                            <div>TAX</div>
+                            <div>DISCOUNT</div>
+                            <div>TOTAL</div>
+                            <div>STAFF</div>
+                            <div>ACTIONS</div>
                         </div>
 
                         <div className="grid grid-cols-9 w-full gap-2 p-2 text-nowrap">
-                            <div className="flex-1">24300264</div>
-                            <div className="flex-1">19 Apr 20:56</div>
-                            <div className="flex-1">1 items</div>
-                            <div className="flex-1">฿20.00</div>
-                            <div className="flex-1">฿1.40</div>
-                            <div className="flex-1">-</div>
-                            <div className="flex-1">฿21.40</div>
-                            <div className="flex-1">admin</div>
-                            <div className="flex-1">View</div>
+                            <div>24300264</div>
+                            <div>19 Apr 20:56</div>
+                            <div>1 items</div>
+                            <div>฿20.00</div>
+                            <div>฿1.40</div>
+                            <div>-</div>
+                            <div>฿21.40</div>
+                            <div>admin</div>
+                            <div>View</div>
                         </div>
 
                         <div className="grid grid-cols-9 w-full gap-2 p-2 text-nowrap">
-                            <div className="flex-1">24300264</div>
-                            <div className="flex-1">19 Apr 20:56</div>
-                            <div className="flex-1">1 items</div>
-                            <div className="flex-1">฿20.00</div>
-                            <div className="flex-1">฿1.40</div>
-                            <div className="flex-1">-</div>
-                            <div className="flex-1">฿21.40</div>
-                            <div className="flex-1">admin</div>
-                            <div className="flex-1">View</div>
+                            <div>24300264</div>
+                            <div>19 Apr 20:56</div>
+                            <div>1 items</div>
+                            <div>฿20.00</div>
+                            <div>฿1.40</div>
+                            <div>-</div>
+                            <div>฿21.40</div>
+                            <div>admin</div>
+                            <div>View</div>
                         </div>
 
                         <div className="grid grid-cols-9 w-full gap-2 p-2 text-nowrap">
-                            <div className="flex-1">24300264</div>
-                            <div className="flex-1">19 Apr 20:56</div>
-                            <div className="flex-1">1 items</div>
-                            <div className="flex-1">฿20.00</div>
-                            <div className="flex-1">฿1.40</div>
-                            <div className="flex-1">-</div>
-                            <div className="flex-1">฿21.40</div>
-                            <div className="flex-1">admin</div>
-                            <div className="flex-1">View</div>
+                            <div>24300264</div>
+                            <div>19 Apr 20:56</div>
+                            <div>1 items</div>
+                            <div>฿20.00</div>
+                            <div>฿1.40</div>
+                            <div>-</div>
+                            <div>฿21.40</div>
+                            <div>admin</div>
+                            <div>View</div>
                         </div>
 
                         <div className="grid grid-cols-9 w-full gap-2 p-2 text-nowrap">
-                            <div className="flex-1">24300264</div>
-                            <div className="flex-1">19 Apr 20:56</div>
-                            <div className="flex-1">1 items</div>
-                            <div className="flex-1">฿20.00</div>
-                            <div className="flex-1">฿1.40</div>
-                            <div className="flex-1">-</div>
-                            <div className="flex-1">฿21.40</div>
-                            <div className="flex-1">admin</div>
-                            <div className="flex-1">View</div>
+                            <div>24300264</div>
+                            <div>19 Apr 20:56</div>
+                            <div>1 items</div>
+                            <div>฿20.00</div>
+                            <div>฿1.40</div>
+                            <div>-</div>
+                            <div>฿21.40</div>
+                            <div>admin</div>
+                            <div>View</div>
                         </div>
                     </div>
                 </div>

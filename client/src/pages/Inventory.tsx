@@ -20,68 +20,67 @@ const Inventory = () => {
                         </div>
 
                         <div className="grid grid-cols-6 w-full gap-2 p-2 text-gray-400 text-nowrap mini-component">
-                            <div className="flex-1">PRODUCT</div>
-                            <div className="flex-1">CATEGORY</div>
-                            <div className="flex-1">STOCK</div>
-                            <div className="flex-1">MIN STOCK</div>
-                            <div className="flex-1">STATUS</div>
-                            <div className="flex-1">RESTOCK</div>
+                            <div>PRODUCT</div>
+                            <div>CATEGORY</div>
+                            <div>STOCK</div>
+                            <div>MIN STOCK</div>
+                            <div>STATUS</div>
+                            <div>RESTOCK</div>
                         </div>
 
                         <div className="grid grid-cols-6 w-full gap-2 p-2 text-nowrap">
-                            <div className="flex-1">Coca-Cola 330ml</div>
-                            <div className="flex-1"><span className="bg-blue-400 text-black p-1 rounded-full">Beverages</span></div>
-                            <div className="flex-1">50</div>
-                            <div className="flex-1">10</div>
-                            <div className="flex-1"><span className="bg-teal-400 text-black p-1 px-4 rounded-full">OK</span></div>
-                            <div className="flex-1"><button className="bg-teal-400 text-black rounded-md p-1 text-sm">+ Restock</button></div>
+                            <div>Coca-Cola 330ml</div>
+                            <div><span className="bg-blue-400 text-black p-1 rounded-full">Beverages</span></div>
+                            <div>50</div>
+                            <div>10</div>
+                            <div><span className="bg-teal-400 text-black p-1 px-4 rounded-full">OK</span></div>
+                            <div><button className="bg-teal-400 text-black rounded-md p-1 text-sm">+ Restock</button></div>
                         </div>
 
                         <div className="grid grid-cols-6 w-full gap-2 p-2 text-nowrap">
-                            <div className="flex-1">Coca-Cola 330ml</div>
-                            <div className="flex-1"><span className="bg-blue-400 text-black p-1 rounded-full">Beverages</span></div>
-                            <div className="flex-1">50</div>
-                            <div className="flex-1">10</div>
-                            <div className="flex-1"><span className="bg-teal-400 text-black p-1 px-4 rounded-full">OK</span></div>
-                            <div className="flex-1"><button className="bg-teal-400 text-black rounded-md p-1 text-sm">+ Restock</button></div>
+                            <div>Coca-Cola 330ml</div>
+                            <div><span className="bg-blue-400 text-black p-1 rounded-full">Beverages</span></div>
+                            <div>50</div>
+                            <div>10</div>
+                            <div><span className="bg-teal-400 text-black p-1 px-4 rounded-full">OK</span></div>
+                            <div><button className="bg-teal-400 text-black rounded-md p-1 text-sm">+ Restock</button></div>
                         </div>
 
                         <div className="grid grid-cols-6 w-full gap-2 p-2 text-nowrap">
-                            <div className="flex-1">Coca-Cola 330ml</div>
-                            <div className="flex-1"><span className="bg-blue-400 text-black p-1 rounded-full">Beverages</span></div>
-                            <div className="flex-1">50</div>
-                            <div className="flex-1">10</div>
-                            <div className="flex-1"><span className="bg-teal-400 text-black p-1 px-4 rounded-full">OK</span></div>
-                            <div className="flex-1"><button className="bg-teal-400 text-black rounded-md p-1 text-sm">+ Restock</button></div>
+                            <div>Coca-Cola 330ml</div>
+                            <div><span className="bg-blue-400 text-black p-1 rounded-full">Beverages</span></div>
+                            <div>50</div>
+                            <div>10</div>
+                            <div><span className="bg-teal-400 text-black p-1 px-4 rounded-full">OK</span></div>
+                            <div><button className="bg-teal-400 text-black rounded-md p-1 text-sm">+ Restock</button></div>
                         </div>
 
                         <div className="grid grid-cols-6 w-full gap-2 p-2 text-nowrap">
-                            <div className="flex-1">Coca-Cola 330ml</div>
-                            <div className="flex-1"><span className="bg-blue-400 text-black p-1 rounded-full">Beverages</span></div>
-                            <div className="flex-1">50</div>
-                            <div className="flex-1">10</div>
-                            <div className="flex-1"><span className="bg-teal-400 text-black p-1 px-4 rounded-full">OK</span></div>
-                            <div className="flex-1"><button className="bg-teal-400 text-black rounded-md p-1 text-sm">+ Restock</button></div>
+                            <div>Coca-Cola 330ml</div>
+                            <div><span className="bg-blue-400 text-black p-1 rounded-full">Beverages</span></div>
+                            <div>50</div>
+                            <div>10</div>
+                            <div><span className="bg-teal-400 text-black p-1 px-4 rounded-full">OK</span></div>
+                            <div><button className="bg-teal-400 text-black rounded-md p-1 text-sm">+ Restock</button></div>
                         </div>
 
                         <div className="grid grid-cols-6 w-full gap-2 p-2 text-nowrap">
-                            <div className="flex-1">Coca-Cola 330ml</div>
-                            <div className="flex-1"><span className="bg-blue-400 text-black p-1 rounded-full">Beverages</span></div>
-                            <div className="flex-1">50</div>
-                            <div className="flex-1">10</div>
-                            <div className="flex-1"><span className="bg-teal-400 text-black p-1 px-4 rounded-full">OK</span></div>
-                            <div className="flex-1"><button className="bg-teal-400 text-black rounded-md p-1 text-sm">+ Restock</button></div>
+                            <div>Coca-Cola 330ml</div>
+                            <div><span className="bg-blue-400 text-black p-1 rounded-full">Beverages</span></div>
+                            <div>50</div>
+                            <div>10</div>
+                            <div><span className="bg-teal-400 text-black p-1 px-4 rounded-full">OK</span></div>
+                            <div><button className="bg-teal-400 text-black rounded-md p-1 text-sm">+ Restock</button></div>
                         </div>
 
                         <div className="grid grid-cols-6 w-full gap-2 p-2 text-nowrap">
-                            <div className="flex-1">Coca-Cola 330ml</div>
-                            <div className="flex-1"><span className="bg-blue-400 text-black p-1 rounded-full">Beverages</span></div>
-                            <div className="flex-1">50</div>
-                            <div className="flex-1">10</div>
-                            <div className="flex-1"><span className="bg-teal-400 text-black p-1 px-4 rounded-full">OK</span></div>
-                            <div className="flex-1"><button className="bg-teal-400 text-black rounded-md p-1 text-sm">+ Restock</button></div>
-                        </div>                       
-                    
+                            <div>Coca-Cola 330ml</div>
+                            <div><span className="bg-blue-400 text-black p-1 rounded-full">Beverages</span></div>
+                            <div>50</div>
+                            <div>10</div>
+                            <div><span className="bg-teal-400 text-black p-1 px-4 rounded-full">OK</span></div>
+                            <div><button className="bg-teal-400 text-black rounded-md p-1 text-sm">+ Restock</button></div>
+                        </div>
                     </div>
                 </div>
 
