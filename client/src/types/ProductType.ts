@@ -8,7 +8,8 @@ interface ProductType {
     price: number,
     cost: number,
     stock: number,
-    image: string,
+    imageUrl?: string;
+    imageBlob?: Blob;
 }
 
 export type { ProductType };

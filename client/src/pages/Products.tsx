@@ -1,6 +1,7 @@
 import { useState } from "react";
 import ProductRow from "../components/ProductRow";
 import { useProductStore } from "../stores/ProductStore";
+import { usePopUpStore } from "../stores/popUpStore";
 
 const Product = () => {
 
@@ -9,7 +10,8 @@ const Product = () => {
     const [category, setCategory] = useState("All Categories");
 
     // using stores
-    const  { products, addProduct }  = useProductStore();
+    const  { products }  = useProductStore();
+    const { toggleNewProductFrom } = usePopUpStore();
     // filter products by search keywords and category
     const filterProducts = products.filter( item => {
 
@@ -26,7 +28,7 @@ const Product = () => {
                     <span className="text-2xl font-bold">Product Management</span>
                     <span className="text-sm text-gray-400">Add, edit and manage your product catalog</span>
                 </div>
-                <button className="bg-teal-400/20 text-teal-400 rounded-md p-1 text-sm">+ Add Product</button>
+                <button onClick={toggleNewProductFrom} className="bg-teal-400/20 text-teal-400 rounded-md p-1 text-sm">+ Add Product</button>
 
             </div>
 

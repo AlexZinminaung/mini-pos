@@ -10,12 +10,29 @@ type Props = {
 const ProductRow = ({data}: Props) => {
     const [isEdit, setEdit] = useState(false);
     const [formData, setFormData] = useState(data);
-    console.log(data);
-    const status = data.stock < 15 ? "Low Stock" : "In Stock"
+    const status = formData.stock < 15 ? "Low Stock" : "In Stock"
 
     //  handler functions
     const changeFormData = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
-         const { name, value } = e.target;
+        const { name, value } = e.target;
+        // only for numeric fields
+        if (name === "stock" || name === "price") {
+
+            // allow empty
+            if (value === "") {
+                setFormData(prev => ({
+                    ...prev,
+                    [name]: ""
+                }));
+                return;
+            }
+
+            // only positive integers
+            if (!/^[1-9]\d*$/.test(value)) {
+                return;
+            }
+        }
+            
          setFormData(prev => {
             return {...prev, [name]: value}
          })

@@ -2,6 +2,7 @@
 import './App.css'
 import MainContent from './components/MainContent'
 import Navbar from './components/Navbar'
+import NewProductForm from './components/popups/NewProductForm'
 import Sidebar from './components/Sidebar'
 import Dashboard from './pages/Dashboard'
 import Inventory from './pages/Inventory'
@@ -16,6 +17,7 @@ import { usePageStore } from './stores/pageStore'
 
 // import types
 import type { Page } from './stores/pageStore'
+import { usePopUpStore } from './stores/popUpStore'
 
 const getSelectedPage = (page: Page) =>
 {
@@ -44,6 +46,7 @@ const getSelectedPage = (page: Page) =>
 
 function App() {
   const { page } = usePageStore();
+  const { isNewProductFromOpen } = usePopUpStore();
 
   const selectedPage = getSelectedPage(page);
 
@@ -58,6 +61,7 @@ function App() {
       </section>
 
       {/* Popup Form Here */}
+      {isNewProductFromOpen && <NewProductForm/>}
     </>
   )
 }
