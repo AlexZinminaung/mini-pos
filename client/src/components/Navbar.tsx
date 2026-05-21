@@ -16,16 +16,16 @@ const Navbar = () => {
     const { isOpen, openSidebar, closeSidebar } = useSidebarStore();
     const { page } = usePageStore();
     return (
-        <div className='w-full sticky top-0 right-0'>
+        <nav className='w-full shrink-0 top-0 right-0'>
             <button onClick={closeSidebar} className={`${isOpen ? 'flex' : 'hidden'} md:hidden w-full h-screen absolute z-10 bg-black/20`}></button>
-            <nav className='component w-full p-4 flex justify-between'>
+            <div className='component w-full p-4 flex justify-between'>
                 <div className='flex justify-center items-center gap-2'>
                     <button onClick={openSidebar} className='flex md:hidden'><TextAlignJustify size={15}/></button>
                     <span className=''>{page}</span>
                 </div>
                 <button onClick={toggleTheme}>{theme == 'light' ? <Moon /> : <Sun />}</button>
-            </nav>
-        </div>
+            </div>
+        </nav>
 
     );
 }

@@ -7,7 +7,7 @@ type MainContentProps = {
 const MainContent = ({children} : MainContentProps) => {
 
     return (
-        <div className="fixed inset-0 sm:relative w-full h-dvh overflow-hidden main-container">
+        <div className="fixed inset-0 sm:relative w-full h-dvh overflow-hidden main-container flex flex-col min-h-0">
             {children}
         </div>
     );
