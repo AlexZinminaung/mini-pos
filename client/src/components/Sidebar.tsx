@@ -16,7 +16,7 @@ const Sidebar = () => {
     const { page, setPage } = usePageStore();
 
     return (
-        <div className={`component flex flex-col text-xs text-gray-400 absolute z-20 md:static md:translate-x-0 h-screen transition-all ${isOpen ? "translate-x-0" : " -translate-x-full"}`}>
+        <div className={`component flex flex-col text-xs text-gray-400 absolute z-20 md:static md:translate-x-0 h-dvh transition-all ${isOpen ? "translate-x-0" : " -translate-x-full"}`}>
             <div className="flex flex-col gap-2 p-5 mini-component">
                 <span className=" text-teal-500 font-bold text-lg">Mini-Pos</span>
                 <span className="text-gray-400">POS SYSTEM</span>

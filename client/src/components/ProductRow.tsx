@@ -9,20 +9,39 @@ type Props = {
 
 const ProductRow = ({data}: Props) => {
     const [isEdit, setEdit] = useState(false);
-
+    const [formData, setFormData] = useState(data);
+    console.log(data);
     const status = data.stock < 15 ? "Low Stock" : "In Stock"
 
+    //  handler functions
+    const changeFormData = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
+         const { name, value } = e.target;
+         setFormData(prev => {
+            return {...prev, [name]: value}
+         })
+    }
 
     return (
             <div className="grid grid-cols-7 w-full items-center gap-2 p-2 text-nowrap text-xs">
-                {isEdit ? <input type="text" value={data.name} className="outline-none mini-component border p-1 w-24"/> : <div>{data.name}</div>}
+                {isEdit ? <input type="text" name="name" value={formData.name} onChange={changeFormData} className="outline-none mini-component border p-1 w-24"/> : <div>{formData.name}</div>}
                 <div>
-                    {isEdit ? <input type="text" value={data.category}  className="outline-none mini-component border p-1 w-24"/> : <span className="bg-blue-400/20 text-blue-400 p-1 rounded-full">{data.category}</span>}
+                    {isEdit ? 
+                        <select name="category" value={formData.category} onChange={changeFormData}  className="outline-none mini-component border p-1 w-24">
+                            <option>All Categories</option>
+                            <option>Beverages</option>
+                            <option>Snacks</option>
+                            <option>Food</option>
+                            <option>Dairy</option>
+                            <option>Personal Care</option>
+                            <option>Cleaning</option>
+                        </select>
+                        : 
+                        <span className="bg-blue-400/20 text-blue-400 p-1 rounded-full">{formData.category}</span>}
                 </div>
-                {isEdit ? <input type="text" value={data.price}  className="outline-none mini-component border p-1 w-24"/> : <div>$ ${data.price}</div>}
-                {isEdit ? <input type="text" value={data.cost}  className="outline-none mini-component border p-1 w-24"/> :<div>$ {data.cost}</div>}
+                {isEdit ? <input type="number" name="price" value={formData.price} onChange={changeFormData}  className="outline-none mini-component border p-1 w-24"/> : <div>$ ${formData.price}</div>}
+                {isEdit ? <input type="number" name="cost" value={formData.cost} onChange={changeFormData}  className="outline-none mini-component border p-1 w-24"/> :<div>$ {formData.cost}</div>}
                 <div>
-                    {isEdit ? <input type="text" value={data.stock}  className="outline-none mini-component border p-1 w-24"/> : <span className="bg-teal-400/20 text-teal-400 p-1 rounded-full">{data.stock}</span>}
+                    {isEdit ? <input type="number" name="stock" value={formData.stock} onChange={changeFormData}  className="outline-none mini-component border p-1 w-24"/> : <span className="bg-teal-400/20 text-teal-400 p-1 rounded-full">{formData.stock}</span>}
                 </div>
                 <div>
                     <span className={`px-1 rounded-full ${status == "Low Stock" ? "bg-red-400/20 text-red-400" : "bg-teal-400/20 text-teal-400"}`}>{status}</span>
