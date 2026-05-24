@@ -8,7 +8,7 @@ const Products: ProductType[] = [
     price: 30,
     cost: 25,
     stock: 30,
-    image:
+    imageUrl:
       "https://png.pngtree.com/png-vector/20231115/ourmid/pngtree-cocacola-can-resting-on-a-blank-png-image_10586760.png",
   },
   {
@@ -18,7 +18,7 @@ const Products: ProductType[] = [
     price: 30,
     cost: 24,
     stock: 25,
-    image:
+    imageUrl:
       "https://images.unsplash.com/photo-1629203851122-3726ecdf080e",
   },
   {
@@ -28,7 +28,7 @@ const Products: ProductType[] = [
     price: 15,
     cost: 10,
     stock: 50,
-    image:
+    imageUrl:
       "https://images.unsplash.com/photo-1564419320461-6870880221ad",
   },
   {
@@ -38,8 +38,8 @@ const Products: ProductType[] = [
     price: 40,
     cost: 30,
     stock: 22,
-    image:
-      "https://images.unsplash.com/photo-1600271886742-f049cd5bba3f",
+    imageUrl:
+      "https://images.unsplash.com/photo-1621506289937-a8e4df240d0b?q=80&w=1200&auto=format&fit=crop",
   },
   {
     id: 5,
@@ -48,7 +48,7 @@ const Products: ProductType[] = [
     price: 35,
     cost: 28,
     stock: 20,
-    image:
+    imageUrl:
       "https://images.unsplash.com/photo-1517701604599-bb29b565090c",
   },
 
@@ -59,7 +59,7 @@ const Products: ProductType[] = [
     price: 25,
     cost: 18,
     stock: 40,
-    image:
+    imageUrl:
       "https://images.unsplash.com/photo-1566478989037-eec170784d0b",
   },
   {
@@ -69,7 +69,7 @@ const Products: ProductType[] = [
     price: 20,
     cost: 12,
     stock: 35,
-    image:
+    imageUrl:
       "https://images.unsplash.com/photo-1549007994-cb92caebd54b",
   },
   {
@@ -79,7 +79,7 @@ const Products: ProductType[] = [
     price: 18,
     cost: 10,
     stock: 45,
-    image:
+    imageUrl:
       "https://images.unsplash.com/photo-1509440159596-0249088772ff",
   },
   {
@@ -89,7 +89,7 @@ const Products: ProductType[] = [
     price: 28,
     cost: 18,
     stock: 26,
-    image:
+    imageUrl:
       "https://images.unsplash.com/photo-1499636136210-6f4ee915583e",
   },
 
@@ -100,7 +100,7 @@ const Products: ProductType[] = [
     price: 18,
     cost: 12,
     stock: 60,
-    image:
+    imageUrl:
       "https://images.unsplash.com/photo-1612929633738-8fe44f7ec841",
   },
   {
@@ -110,7 +110,7 @@ const Products: ProductType[] = [
     price: 40,
     cost: 30,
     stock: 18,
-    image:
+    imageUrl:
       "https://images.unsplash.com/photo-1509440159596-0249088772ff",
   },
   {
@@ -120,7 +120,7 @@ const Products: ProductType[] = [
     price: 120,
     cost: 90,
     stock: 10,
-    image:
+    imageUrl:
       "https://images.unsplash.com/photo-1513104890138-7c749659a591",
   },
   {
@@ -130,7 +130,7 @@ const Products: ProductType[] = [
     price: 50,
     cost: 35,
     stock: 16,
-    image:
+    imageUrl:
       "https://images.unsplash.com/photo-1612392062798-f4cb5c06a1b1",
   },
 
@@ -141,7 +141,7 @@ const Products: ProductType[] = [
     price: 55,
     cost: 45,
     stock: 15,
-    image:
+    imageUrl:
       "https://images.unsplash.com/photo-1550583724-b2692b85b150",
   },
   {
@@ -151,7 +151,7 @@ const Products: ProductType[] = [
     price: 45,
     cost: 35,
     stock: 12,
-    image:
+    imageUrl:
       "https://images.unsplash.com/photo-1563805042-7684c019e1cb",
   },
   {
@@ -161,7 +161,7 @@ const Products: ProductType[] = [
     price: 65,
     cost: 50,
     stock: 14,
-    image:
+    imageUrl:
       "https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d",
   },
   {
@@ -171,7 +171,7 @@ const Products: ProductType[] = [
     price: 70,
     cost: 58,
     stock: 11,
-    image:
+    imageUrl:
       "https://images.unsplash.com/photo-1589985270958-b3f1c1b1a5b5",
   },
 
@@ -182,7 +182,7 @@ const Products: ProductType[] = [
     price: 95,
     cost: 70,
     stock: 20,
-    image:
+    imageUrl:
       "https://images.unsplash.com/photo-1526947425960-945c6e72858f",
   },
   {
@@ -192,7 +192,7 @@ const Products: ProductType[] = [
     price: 45,
     cost: 30,
     stock: 34,
-    image:
+    imageUrl:
       "https://images.unsplash.com/photo-1559591937-abc6c2c2b9d4",
   },
   {
@@ -202,7 +202,7 @@ const Products: ProductType[] = [
     price: 25,
     cost: 15,
     stock: 42,
-    image:
+    imageUrl:
       "https://images.unsplash.com/photo-1607006483225-2f24f8c1a6d5",
   },
 
@@ -213,7 +213,7 @@ const Products: ProductType[] = [
     price: 85,
     cost: 60,
     stock: 17,
-    image:
+    imageUrl:
       "https://images.unsplash.com/photo-1583947582886-f40ec95dd752",
   },
   {
@@ -223,7 +223,7 @@ const Products: ProductType[] = [
     price: 150,
     cost: 120,
     stock: 9,
-    image:
+    imageUrl:
       "https://images.unsplash.com/photo-1610552050890-fe99536c2614",
   },
   {
@@ -233,7 +233,7 @@ const Products: ProductType[] = [
     price: 110,
     cost: 85,
     stock: 13,
-    image:
+    imageUrl:
       "https://images.unsplash.com/photo-1581578731548-c64695cc6952",
   },
 ];
