@@ -55,7 +55,7 @@ const ProductRow = ({data}: Props) => {
                         : 
                         <span className="bg-blue-400/20 text-blue-400 p-1 rounded-full">{formData.category}</span>}
                 </div>
-                {isEdit ? <input type="number" name="price" value={formData.price} onChange={changeFormData}  className="outline-none mini-component border p-1 w-24"/> : <div>$ ${formData.price}</div>}
+                {isEdit ? <input type="number" name="price" value={formData.price} onChange={changeFormData}  className="outline-none mini-component border p-1 w-24"/> : <div> ${formData.price}</div>}
                 {isEdit ? <input type="number" name="cost" value={formData.cost} onChange={changeFormData}  className="outline-none mini-component border p-1 w-24"/> :<div>$ {formData.cost}</div>}
                 <div>
                     {isEdit ? <input type="number" name="stock" value={formData.stock} onChange={changeFormData}  className="outline-none mini-component border p-1 w-24"/> : <span className="bg-teal-400/20 text-teal-400 p-1 rounded-full">{formData.stock}</span>}

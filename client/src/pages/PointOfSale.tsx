@@ -1,9 +1,29 @@
 import { ShoppingBag } from 'lucide-react';
+import { LoaderCircle } from 'lucide-react';
+
 import ProductBox from '../components/ProductBox';
 import { useProductStore } from "../stores/ProductStore";
+import { useEffect, useState } from 'react';
+
+// import types
+import type { ProductType } from '../types/ProductType';
 
 const PointOfSale = () => {
-    const products = useProductStore(state => state.products);
+    const storeProduct = useProductStore(state => state.products)
+    const [products, setProducts] = useState<ProductType[]>([]);
+    const [status, setStatus] = useState('loading');
+    
+    // fetch data using useEffect
+    useEffect(() => {
+        fetchProducts()
+    }, [])
+
+
+    //  product function
+    const fetchProducts = () => {
+        setProducts(storeProduct)
+        setStatus('fetched');
+    }
 
     return (
         <section className="flex h-full sm:flex-row flex-col overflow-hidden">
@@ -21,14 +41,28 @@ const PointOfSale = () => {
                 </form>
 
                 {/* Product Container */}
-                <div className="p-4 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-2">
-                   {
-                    products.map( item => {
+                {
+                    status == 'loading' ?
+                        <div className='w-full h-full flex justify-center items-center'>
+                            <LoaderCircle className="mr-3 size-5 animate-spin" />
+                            <span className=' block'>loading...</span>
+                        </div>
+                        :
+                    <div className="p-4 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-2">
+                    {
+                        products.length == 0 
+                        ? 
+                            <div className='w-full h-full flex justify-center items-center'>
+                                <span className=' block'>loading...</span>
+                            </div>
+                        :
+                        products.map( item => {
+                            return <ProductBox key={item.id} data={item}/>
+                        })
+                    }
+                    </div>
+                }
 
-                        return <ProductBox key={item.id} data={item}/>
-                    })
-                   }
-                </div>
             </div>
 
             <div className="component sm:h-full w-full sm:w-fit shrink-0 flex flex-col">
